@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>941</width>
+    <height>751</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>7</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_5">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>941</width>
+     <height>751</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+border : 1px solid #ffffff
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>1</number>
+   </property>
+   <property name="midLineWidth">
+    <number>0</number>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../../../45006407_9120735.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>150</y>
+     <width>491</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+     <horstretch>42</horstretch>
+     <verstretch>100</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <strikeout>false</strikeout>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    border: 2px solid rgb(255, 255, 255)
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../../../image.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="email_edit">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>280</y>
+     <width>450</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>36</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <property name="statusTip">
+    <string notr="true"/>
+   </property>
+   <property name="whatsThis">
+    <string notr="true"/>
+   </property>
+   <property name="accessibleName">
+    <string notr="true"/>
+   </property>
+   <property name="accessibleDescription">
+    <string notr="true"/>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    background-color: rgba(70, 60, 110, 0.8);
+    color: #ffffff;
+    border: 2px solid #6a5acd;
+    border-radius: 22px;
+    padding: 1px 150px 1px 50px;  /* جا برای آیکون */
+    font-size: 18px;
+}
+
+QLineEdit:focus {
+    border: 2px solid #9d81ff;
+    background-color: rgba(90, 80, 140, 0.9);
+}</string>
+   </property>
+   <property name="text">
+    <string notr="true">Email Address</string>
+   </property>
+   <property name="frame">
+    <bool>true</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>false</bool>
+   </property>
+   <property name="placeholderText">
+    <string notr="true"/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>195</y>
+     <width>111</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>30</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+color : rgb(255, 255, 255)
+}</string>
+   </property>
+   <property name="text">
+    <string>Login</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="forget_Button">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>460</y>
+     <width>171</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton[flat=&quot;true&quot;] {
+    background: transparent;
+    color: #d8bfff;
+    border: none;
+    font-size: 22px;
+}
+
+QPushButton[flat=&quot;true&quot;]:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}</string>
+   </property>
+   <property name="text">
+    <string>Forget Password?</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="email_label">
+   <property name="geometry">
+    <rect>
+     <x>639</x>
+     <y>285</y>
+     <width>35</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../store-management-requirment/email_100dp_FFFFFF.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="password_edit">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>390</y>
+     <width>450</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="statusTip">
+    <string notr="true"/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    background-color: rgba(70, 60, 110, 0.8);
+    color: #ffffff;
+    border: 2px solid #6a5acd;
+    border-radius: 22px;
+    padding: 1px 150px 1px 50px;  /* جا برای آیکون */
+    font-size: 18px;
+}
+
+QLineEdit:focus {
+    border: 2px solid #9d81ff;
+    background-color: rgba(90, 80, 140, 0.9);
+}</string>
+   </property>
+   <property name="text">
+    <string notr="true">Password</string>
+   </property>
+   <property name="maxLength">
+    <number>32765</number>
+   </property>
+   <property name="frame">
+    <bool>true</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+   <property name="dragEnabled">
+    <bool>false</bool>
+   </property>
+   <property name="readOnly">
+    <bool>false</bool>
+   </property>
+   <property name="placeholderText">
+    <string notr="true"/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="login_Button">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>500</y>
+     <width>450</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background: qlineargradient(
+        x1: 0, y1: 0, x2: 1, y2: 0,
+        stop: 0 #6a5acd, 
+        stop: 1 #9d81ff
+    );
+    color: white;
+    border: none;
+    border-radius: 22px;
+    padding: 4px;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background: qlineargradient(
+        x1: 0, y1: 0, x2: 1, y2: 0,
+        stop: 0 #9d81ff, 
+        stop: 1 #b19bff
+    );
+    box-shadow: 0 0 20px rgba(157, 129, 255, 0.6);
+}
+
+QPushButton:pressed {
+    background: qlineargradient(
+        x1: 0, y1: 0, x2: 1, y2: 0,
+        stop: 0 #5a4acd, 
+        stop: 1 #8d71ef
+    );
+}</string>
+   </property>
+   <property name="text">
+    <string>Login</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pass_label">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>395</y>
+     <width>35</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../store-management-requirment/lock_100dp_FFFFFF.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="return_home">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>700</y>
+     <width>75</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background: transparent;
+    border: none;
+}
+
+QPushButton:hover {
+    background: rgba(157, 129, 255, 0.2);
+    border-radius: 30px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../store-management-requirment/home_100dp_FFFFFF.png</normaloff>../../../store-management-requirment/home_100dp_FFFFFF.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+   <property name="shortcut">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label_5</zorder>
+  <zorder>label_3</zorder>
+  <zorder>email_edit</zorder>
+  <zorder>label_7</zorder>
+  <zorder>forget_Button</zorder>
+  <zorder>password_edit</zorder>
+  <zorder>login_Button</zorder>
+  <zorder>return_home</zorder>
+  <zorder>pass_label</zorder>
+  <zorder>email_label</zorder>
+ </widget>
+ <tabstops>
+  <tabstop>email_edit</tabstop>
+  <tabstop>password_edit</tabstop>
+  <tabstop>forget_Button</tabstop>
+  <tabstop>login_Button</tabstop>
+  <tabstop>return_home</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

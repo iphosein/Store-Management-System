@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>941</width>
+    <height>751</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>7</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>941</width>
+     <height>751</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#QLabel {
+    background: qlineargradient(
+        spread:pad,
+        x1:0, y1:0,
+        x2:1, y2:0,
+        stop:0   hsla(256, 100%, 35%, 1),
+        stop:0.50 hsla(277, 84%, 32%, 1),
+        stop:1   hsla(261, 98%, 23%, 1)
+    );
+}
+QLabel {
+    background: qlineargradient(
+        x1: 0, y1: 0, x2: 1, y2: 0,
+        stop: 0 #2a1f4d,
+        stop: 0.4 #3d2b6b,
+        stop: 1 #1e1b2e
+    );
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="return_home">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>690</y>
+     <width>75</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background: transparent;
+    border: none;
+}
+
+QPushButton:hover {
+    background: rgba(157, 129, 255, 0.2);
+    border-radius: 25px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../store-management-requirment/home_100dp_FFFFFF.png</normaloff>../../../store-management-requirment/home_100dp_FFFFFF.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="shortcut">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="add_Button">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>690</y>
+     <width>62</width>
+     <height>58</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background: transparent;
+    border: none;
+}
+
+QPushButton:hover {
+    background: rgba(157, 129, 255, 0.2);
+    border-radius: 25px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../store-management-requirment/add_circle_outline_100dp_FFFFFF.png</normaloff>../../../store-management-requirment/add_circle_outline_100dp_FFFFFF.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="delete_Button">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>690</y>
+     <width>62</width>
+     <height>58</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background: transparent;
+    border: none;
+}
+
+QPushButton:hover {
+    background: rgba(157, 129, 255, 0.2);
+    border-radius: 25px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../store-management-requirment/delete_forever_100dp_FFFFFF.png</normaloff>../../../store-management-requirment/delete_forever_100dp_FFFFFF.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="edit_Button">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>690</y>
+     <width>62</width>
+     <height>58</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background: transparent;
+    border: none;
+}
+
+QPushButton:hover {
+    background: rgba(157, 129, 255, 0.2);
+    border-radius: 25px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../store-management-requirment/edit_100dp_FFFFFF.png</normaloff>../../../store-management-requirment/edit_100dp_FFFFFF.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>921</width>
+     <height>621</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QScrollArea {
+    background: transparent;
+    border: none;
+}
+
+QScrollBar:vertical {
+    background: #2c264d;
+    width: 12px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical {
+    background: #6a5acd;
+    border-radius: 6px;
+}</string>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>921</width>
+      <height>621</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QComboBox" name="field_combo">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>261</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox {
+    background-color: rgba(50, 40, 90, 0.8);
+    color: #e6d9ff;
+    border: 1px solid #6a5acd;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+QComboBox::drop-down {
+    border: none;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #3d2b6b;
+    selection-background-color: #6a5acd;
+    color: white;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="value_Edit">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>10</y>
+     <width>331</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    background-color: rgba(50, 40, 90, 0.8);
+    color: #e6d9ff;
+    border: 1px solid #6a5acd;
+    border-radius: 10px;
+    padding: 4px;
+    font-size: 16px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Sample Value</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="filter_result_Button">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>10</y>
+     <width>281</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #6a5acd, stop:1 #9d81ff);
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+QPushButton#filter_result_Button:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #9d81ff, stop:1 #b19bff);
+}</string>
+   </property>
+   <property name="text">
+    <string>Apply &amp; Show Results</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="next_page_Button">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>690</y>
+     <width>62</width>
+     <height>58</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background: transparent;
+    border: none;
+}
+
+QPushButton:hover {
+    background: rgba(157, 129, 255, 0.2);
+    border-radius: 25px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../store-management-requirment/arrow_circle_right_100dp_FFFFFF.png</normaloff>../../../store-management-requirment/arrow_circle_right_100dp_FFFFFF.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back_page_Button">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>690</y>
+     <width>62</width>
+     <height>58</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background: transparent;
+    border: none;
+}
+
+QPushButton:hover {
+    background: rgba(157, 129, 255, 0.2);
+    border-radius: 25px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../store-management-requirment/arrow_circle_left_100dp_999999.png</normaloff>../../../store-management-requirment/arrow_circle_left_100dp_999999.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

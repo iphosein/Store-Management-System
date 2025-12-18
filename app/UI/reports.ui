@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>941</width>
+    <height>751</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>7</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>941</width>
+     <height>751</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#QLabel {
+    background: qlineargradient(
+        spread:pad,
+        x1:0, y1:0,
+        x2:1, y2:0,
+        stop:0   hsla(256, 100%, 35%, 1),
+        stop:0.50 hsla(277, 84%, 32%, 1),
+        stop:1   hsla(261, 98%, 23%, 1)
+    );
+}
+QLabel {
+    background: qlineargradient(
+        x1: 0, y1: 0, x2: 1, y2: 0,
+        stop: 0 #2a1f4d,
+        stop: 0.4 #3d2b6b,
+        stop: 1 #1e1b2e
+    );
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="return_home">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>690</y>
+     <width>75</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background: transparent;
+    border: none;
+}
+
+QPushButton:hover {
+    background: rgba(157, 129, 255, 0.2);
+    border-radius: 25px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../store-management-requirment/home_100dp_FFFFFF.png</normaloff>../../../store-management-requirment/home_100dp_FFFFFF.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="shortcut">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>921</width>
+     <height>621</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QScrollArea {
+    background: transparent;
+    border: none;
+}
+
+QScrollBar:vertical {
+    background: #2c264d;
+    width: 12px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical {
+    background: #6a5acd;
+    border-radius: 6px;
+}</string>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>921</width>
+      <height>621</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="filter_result_Button">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>10</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #6a5acd, stop:1 #9d81ff);
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+QPushButton#filter_result_Button:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #9d81ff, stop:1 #b19bff);
+}</string>
+   </property>
+   <property name="text">
+    <string>Show Results</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QDateTimeEdit" name="from_time">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>10</y>
+     <width>221</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QDateTimeEdit {
+    background-color: rgba(70, 60, 110, 0.8);
+    color: #e6d9ff;
+    border: 2px solid #6a5acd;
+    border-radius: 15px;
+    padding: 0px 0px;
+    font-size: 20px;
+    min-width: 140px;
+}
+
+QDateTimeEdit:focus {
+    border: 2px solid #9d81ff;
+    background-color: rgba(90, 80, 140, 0.9);
+}
+
+
+
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>114</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-size: 22px;
+    font-weight: normal;
+    color: #e0d4ff;
+}</string>
+   </property>
+   <property name="text">
+    <string>Start Date :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>10</y>
+     <width>104</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-size: 22px;
+    font-weight: normal;
+    color: #e0d4ff;
+}</string>
+   </property>
+   <property name="text">
+    <string>End Date :</string>
+   </property>
+  </widget>
+  <widget class="QDateTimeEdit" name="to_time">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>10</y>
+     <width>221</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QDateTimeEdit {
+    background-color: rgba(70, 60, 110, 0.8);
+    color: #e6d9ff;
+    border: 2px solid #6a5acd;
+    border-radius: 15px;
+    padding: 0px 0px;
+    font-size: 20px;
+    min-width: 140px;
+}
+
+QDateTimeEdit:focus {
+    border: 2px solid #9d81ff;
+    background-color: rgba(90, 80, 140, 0.9);
+}
+
+
+
+</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

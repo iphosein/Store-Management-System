@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1283</width>
+    <height>893</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {
+    background: qlineargradient(
+        x1: 0, y1: 0, x2: 1, y2: 1,
+        stop: 0 #1e1b2e, 
+        stop: 0.5 #2a1f4d, 
+        stop: 1 #3d2b6b
+    );
+    color: #e0d4ff;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="hello_label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>20</y>
+      <width>699</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+    font-size: 24px;
+    font-weight: bold;
+    color: #d8bfff;
+    background: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string>salam [name of user] aziz welcom to [modir/admin] panel</string>
+    </property>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>80</y>
+      <width>941</width>
+      <height>751</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QStackedWidget {
+    background: transparent;
+    border: none;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="midLineWidth">
+     <number>0</number>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="stackedWidgetPage1"/>
+    <widget class="QWidget" name="stackedWidgetPage2"/>
+   </widget>
+   <widget class="QPushButton" name="admin_management_Button">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>605</y>
+      <width>270</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgba(60, 50, 100, 0.7);
+    color: #e6d9ff;
+    border: 1px solid #6a5acd;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align:center;
+    padding-left: 30px;
+}
+
+QPushButton:hover {
+    background-color: rgba(100, 80, 180, 0.8);
+    border: 2px solid #9d81ff;
+    box-shadow: 0 0 15px rgba(157, 129, 255, 0.5);
+}
+
+QPushButton:pressed {
+    background-color: rgba(80, 60, 140, 0.9);
+}
+
+QPushButton:disabled {
+    background-color: rgba(50, 40, 80, 0.6);
+    color: #888;
+    border: 1px solid #555;
+}</string>
+    </property>
+    <property name="text">
+     <string>Admin Management</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="invoices_Button">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>230</y>
+      <width>270</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgba(60, 50, 100, 0.7);
+    color: #e6d9ff;
+    border: 1px solid #6a5acd;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 30px;
+}
+
+QPushButton:hover {
+    background-color: rgba(100, 80, 180, 0.8);
+    border: 2px solid #9d81ff;
+    box-shadow: 0 0 15px rgba(157, 129, 255, 0.5);
+}
+
+QPushButton:pressed {
+    background-color: rgba(80, 60, 140, 0.9);
+}
+
+QPushButton:disabled {
+    background-color: rgba(50, 40, 80, 0.6);
+    color: #888;
+    border: 1px solid #555;
+}</string>
+    </property>
+    <property name="text">
+     <string>Invoices</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="customers_Button">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>355</y>
+      <width>270</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgba(60, 50, 100, 0.7);
+    color: #e6d9ff;
+    border: 1px solid #6a5acd;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align:center;
+    padding-left: 30px;
+}
+
+QPushButton:hover {
+    background-color: rgba(100, 80, 180, 0.8);
+    border: 2px solid #9d81ff;
+    box-shadow: 0 0 15px rgba(157, 129, 255, 0.5);
+}
+
+QPushButton:pressed {
+    background-color: rgba(80, 60, 140, 0.9);
+}
+
+QPushButton:disabled {
+    background-color: rgba(50, 40, 80, 0.6);
+    color: #888;
+    border: 1px solid #555;
+}</string>
+    </property>
+    <property name="text">
+     <string>Customers</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="reports_Button">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>480</y>
+      <width>270</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgba(60, 50, 100, 0.7);
+    color: #e6d9ff;
+    border: 1px solid #6a5acd;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align:center;
+    padding-left: 30px;
+}
+
+QPushButton:hover {
+    background-color: rgba(100, 80, 180, 0.8);
+    border: 2px solid #9d81ff;
+    box-shadow: 0 0 15px rgba(157, 129, 255, 0.5);
+}
+
+QPushButton:pressed {
+    background-color: rgba(80, 60, 140, 0.9);
+}
+
+QPushButton:disabled {
+    background-color: rgba(50, 40, 80, 0.6);
+    color: #888;
+    border: 1px solid #555;
+}</string>
+    </property>
+    <property name="text">
+     <string>Reports</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="login_Button">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>730</y>
+      <width>270</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgba(60, 50, 100, 0.7);
+    color: #e6d9ff;
+    border: 1px solid #6a5acd;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align:center;
+    padding-left: 30px;
+}
+
+QPushButton:hover {
+    background-color: rgba(100, 80, 180, 0.8);
+    border: 2px solid #9d81ff;
+    box-shadow: 0 0 15px rgba(157, 129, 255, 0.5);
+}
+
+QPushButton:pressed {
+    background-color: rgba(80, 60, 140, 0.9);
+}
+
+QPushButton:disabled {
+    background-color: rgba(50, 40, 80, 0.6);
+    color: #888;
+    border: 1px solid #555;
+}</string>
+    </property>
+    <property name="text">
+     <string>Login / Logout</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="products_Button">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>105</y>
+      <width>270</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgba(60, 50, 100, 0.7);
+    color: #e6d9ff;
+    border: 1px solid #6a5acd;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align:center;
+    padding-left: 30px;
+}
+
+QPushButton:hover {
+    background-color: rgba(100, 80, 180, 0.8);
+    border: 2px solid #9d81ff;
+    box-shadow: 0 0 15px rgba(157, 129, 255, 0.5);
+}
+
+QPushButton:pressed {
+    background-color: rgba(80, 60, 140, 0.9);
+}
+
+QPushButton:disabled {
+    background-color: rgba(50, 40, 80, 0.6);
+    color: #888;
+    border: 1px solid #555;
+}</string>
+    </property>
+    <property name="text">
+     <string>Products &amp; Inventory</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="styleSheet">
+    <string notr="true">QStatusBar {
+                color: white;  
+            }</string>
+   </property>
+  </widget>
+  <action name="actiondelete">
+   <property name="text">
+    <string>Add new Admin</string>
+   </property>
+  </action>
+  <action name="actionAdd">
+   <property name="text">
+    <string>Add New Customers</string>
+   </property>
+  </action>
+  <action name="actionDelete">
+   <property name="text">
+    <string>Customers List</string>
+   </property>
+  </action>
+  <action name="actionHome_Page">
+   <property name="text">
+    <string>Return Home</string>
+   </property>
+  </action>
+  <action name="actionEdit_Admin">
+   <property name="text">
+    <string>Edit Admin</string>
+   </property>
+  </action>
+  <action name="actionAdmins_List">
+   <property name="text">
+    <string>Admins List</string>
+   </property>
+  </action>
+  <action name="actionAdd_new_Invoice">
+   <property name="text">
+    <string>Add new Invoice</string>
+   </property>
+  </action>
+  <action name="actionInvoices_List">
+   <property name="text">
+    <string>Invoices List</string>
+   </property>
+  </action>
+  <action name="actionAdd_new_Product">
+   <property name="text">
+    <string>Add new Product</string>
+   </property>
+  </action>
+  <action name="actionProduct_List">
+   <property name="text">
+    <string>Product List</string>
+   </property>
+  </action>
+  <action name="actionReports">
+   <property name="text">
+    <string>Reports</string>
+   </property>
+  </action>
+  <action name="actionLogin_Logout">
+   <property name="text">
+    <string>Login / Logout</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

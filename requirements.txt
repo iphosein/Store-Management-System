@@ -1,0 +1,27 @@
+# Core
+fastapi==0.123.7
+uvicorn[standard]==0.38.0
+starlette==0.50.0
+
+# Database & Migrations
+SQLAlchemy==2.0.44
+psycopg2-binary==2.9.11
+alembic==1.17.2
+
+# Settings & Validation
+pydantic==2.12.5
+pydantic-settings==2.12.0
+python-dotenv==1.2.1
+email-validator==2.3.0
+
+# Authentication & Security
+passlib[argon2]==1.7.4
+python-jose[cryptography]==3.5.0
+python-multipart==0.0.20
+
+# HTTP Client
+httpx==0.28.1
+
+#Desktop GUI (Frontend)
+PyQt5==5.15.11
+PyQt5-sip==12.17.1

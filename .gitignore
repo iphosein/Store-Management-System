@@ -1,0 +1,41 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+
+# Environment Variables
+.env
+.env.local
+.env.*
+
+# IDE Files
+.idea/
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Project Specific Folders
+screenshots/                  # پوشه تست یا پیش‌نمایش تو
+
+# Logs & Temp
+*.log
+temp/
+tmp/
+
+# Qt Designer Backup Files
+*.ui~
+
+# Alembic bytecode
+alembic/versions/__pycache__/
+alembic/versions/*.pyc
