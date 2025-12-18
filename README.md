@@ -23,13 +23,13 @@ A powerful full-stack desktop application for retail store management. Built wit
 
 <div align="center">
 
-![Login Screen]([screenshots/Login.JPG](https://github.com/iphosein/Store-Management-System/blob/c75ae8ce425ef9b3b74e761df0330449895303a8/screenshots/Login.JPG))
-![Home Dashboard]([screenshots/Home.JPG](https://github.com/iphosein/Store-Management-System/blob/c75ae8ce425ef9b3b74e761df0330449895303a8/screenshots/Home.JPG))
-![Customers Management]([screenshots/Customers_Page.JPG](https://github.com/iphosein/Store-Management-System/blob/c75ae8ce425ef9b3b74e761df0330449895303a8/screenshots/Customers_Page.JPG))
-![Invoices List]([screenshots/Invoices_Page.JPG](https://github.com/iphosein/Store-Management-System/blob/c75ae8ce425ef9b3b74e761df0330449895303a8/screenshots/Invoices_Page.JPG))
-![Add New Record]([screenshots/Add_Record.JPG](https://github.com/iphosein/Store-Management-System/blob/c75ae8ce425ef9b3b74e761df0330449895303a8/screenshots/Add_Record.JPG))
-![Forgot Password]([screenshots/Forget.JPG](https://github.com/iphosein/Store-Management-System/blob/c75ae8ce425ef9b3b74e761df0330449895303a8/screenshots/Forget.JPG))
-![Reset Password]([screenshots/Reset_pass.JPG](https://github.com/iphosein/Store-Management-System/blob/c75ae8ce425ef9b3b74e761df0330449895303a8/screenshots/Reset_pass.JPG))
+![Login Screen](https://github.com/iphosein/Store-Management-System/blob/c75ae8ce425ef9b3b74e761df0330449895303a8/screenshots/Login.JPG)
+![Home Dashboard](https://github.com/iphosein/Store-Management-System/blob/c75ae8ce425ef9b3b74e761df0330449895303a8/screenshots/Home.JPG)
+![Customers Management](https://github.com/iphosein/Store-Management-System/blob/c75ae8ce425ef9b3b74e761df0330449895303a8/screenshots/Customers_Page.JPG)
+![Invoices List](https://github.com/iphosein/Store-Management-System/blob/c75ae8ce425ef9b3b74e761df0330449895303a8/screenshots/Invoices_Page.JPG)
+![Add New Record](https://github.com/iphosein/Store-Management-System/blob/c75ae8ce425ef9b3b74e761df0330449895303a8/screenshots/Add_Record.JPG)
+![Forgot Password](https://github.com/iphosein/Store-Management-System/blob/c75ae8ce425ef9b3b74e761df0330449895303a8/screenshots/Forget.JPG)
+![Reset Password](https://github.com/iphosein/Store-Management-System/blob/c75ae8ce425ef9b3b74e761df0330449895303a8/screenshots/Reset_pass.JPG)
 
 </div>
 
