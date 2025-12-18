@@ -23,8 +23,8 @@ A powerful full-stack desktop application for retail store management. Built wit
 
 <div align="center">
 
-![Login Screen](https://github.com/iphosein/Store-Management-System/blob/c75ae8ce425ef9b3b74e761df0330449895303a8/screenshots/Login.JPG)
 ![Home Dashboard](https://github.com/iphosein/Store-Management-System/blob/c75ae8ce425ef9b3b74e761df0330449895303a8/screenshots/Home.JPG)
+![Login Screen](https://github.com/iphosein/Store-Management-System/blob/c75ae8ce425ef9b3b74e761df0330449895303a8/screenshots/Login.JPG)
 ![Customers Management](https://github.com/iphosein/Store-Management-System/blob/c75ae8ce425ef9b3b74e761df0330449895303a8/screenshots/Customers_Page.JPG)
 
 </div>
